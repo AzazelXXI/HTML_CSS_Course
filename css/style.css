@@ -1,0 +1,156 @@
+body {
+    background-color: lightgrey;
+}
+/* navbar */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    min-height: 42px;
+}
+
+.nav-list {
+    padding-left: 0;
+    margin: auto 16px;
+}
+
+.nav-item {
+    list-style: none;
+    color: #fff;
+    margin: 0 8px;
+    display: inline-block;
+}
+
+/* Form Input */
+.form-container {
+    padding: 16px;
+    margin: 36px auto 0 auto;
+    background-color: #fff;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.form_row {
+    display: flex;
+}
+
+.form_label {
+    min-width: 50px;
+}
+
+.input-field {
+    flex: 1;
+}
+
+/* Column Layout */
+.column-layout {
+    padding: 16px;
+    margin: 36px auto 0 auto;
+    background-color: #fff;
+    display: flex;
+}
+
+.column-item {
+    padding: 0 16px;
+    text-align: center;
+}
+
+.sidebar-one {
+    flex: 1;
+}
+
+.sidebar-two {
+    flex: 3;
+}
+
+.sidebar-three {
+    flex: 1;
+}
+
+.feature-layout {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.feature-item {
+    padding: 16px;
+    flex-basis: 25%;
+}
+
+.feature-one {
+    background-color: cadetblue;
+}
+
+.feature-two {
+    background-color: coral;
+}
+
+.feature-three {
+    background-color: lightblue;
+}
+
+/*  warp layout */
+.wrap-layout {
+    padding: 20px;
+    background-color: white;
+    margin-top: 36px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.wrap-item {
+    padding: 20px;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+    width: 50px;
+    height: auto;
+    background-color: crimson;
+}
+
+/* Chart Layout */
+.chart-layout {
+    background-color: #fff;
+    padding: 10px;
+    margin-top: 36px;
+    height: 320px;
+    display: flex;
+}
+
+.chart-item {
+    background-color: orange;
+    /* padding: 10px; */
+    margin-left: 20px;
+    width: 60px;
+    text-align: center;
+    height: var(--percent);
+    align-self: flex-end;
+    animation: growth ease 1.5s;
+}
+
+@keyframes growth {
+    from {
+        opacity: 0;
+        height: calc(var(--percent) - 50%);
+    }
+
+    to {
+        opacity: 1;
+        height: var(--percent)
+    }
+}
+
+/* The end */
+.the-end {
+
+}
+
+.the-end-first {
+    
+}
